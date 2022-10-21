@@ -2,7 +2,7 @@ let PetContract;
 
 // 2. Set contract address and ABI
 const Pet_Contract_Address = "0xd9145CCE52D386f254917e481eB44e9943F39138";
-const Pet_Contract_ABI = [[
+const Pet_Contract_ABI = [
     {
         "inputs": [],
         "name": "getPet",
@@ -88,7 +88,7 @@ const Pet_Contract_ABI = [[
         "stateMutability": "nonpayable",
         "type": "function"
     }
-]];
+];
 
 /* 3. Prompt user to sign in to MetaMask */
 const provider = new ethers.providers.Web3Provider(window.ethereum);
